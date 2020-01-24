@@ -1,0 +1,2 @@
+Mejor combinacion: (2, 3, 0, 4, 1)
+Salida: 366376
