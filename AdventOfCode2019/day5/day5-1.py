@@ -7,13 +7,7 @@ i = 0
 while(i < len(lines)):
     n = str(lines[i])
     opcode = n[-2:]
-    '''
-    print('i: ' + str(i))
-    print('n: ' + str(n))
-    print('opcode: ' + str(opcode))
-    '''
     params = list(n[:-2])
-    # print('params: ' + str(params))
     npar = len(params)
 
     if(opcode == '99'):
@@ -23,11 +17,6 @@ while(i < len(lines)):
         a = lines[i+1]
         b = lines[i+2]
         pos = lines[i+3]
-        '''
-        print('\taINI: ' + str(a))
-        print('\tbINI: ' + str(b))
-        print('\tposINI: ' + str(pos))
-        '''
 
         if (npar == 0):
             a = lines[a]
@@ -44,21 +33,11 @@ while(i < len(lines)):
 
         lines[pos] = a + b
         i += 4
-        '''
-        print('\ta: ' + str(a))
-        print('\tb: ' + str(b))
-        print('\tpos: ' + str(pos))
-        '''
 
     elif(opcode == '02' or opcode == '2'):
         a = lines[i+1]
         b = lines[i+2]
         pos = lines[i+3]
-        '''
-        print('\taINI: ' + str(a))
-        print('\tbINI: ' + str(b))
-        print('\tposINI: ' + str(pos))
-        '''
 
         if (npar == 0):
             a = lines[a]
@@ -75,11 +54,6 @@ while(i < len(lines)):
 
         lines[pos] = a * b
         i += 4
-        '''
-        print('\ta: ' + str(a))
-        print('\tb: ' + str(b))
-        print('\tpos: ' + str(pos))
-        '''
 
     elif(opcode == '03' or opcode == '3'):
 
@@ -89,7 +63,6 @@ while(i < len(lines)):
         print()
 
         i += 2
-        # print('\tpos: ' + str(pos))
 
     elif(opcode == '04' or opcode == '4'):
 
