@@ -27,37 +27,30 @@ for ast in asteroides:
     asteroides2.remove(ast)
     dicc_pendientes = {}
     total = 0
-    # print('Asteroide: ' + str(ast))
 
     for otro in asteroides2:
-        # print('\tOtro: ' + str(otro) + ' - pendiente=', end='')
         p = getPendiente(ast[0], ast[1], otro[0], otro[1])
-        # print(p)
 
         if p not in dicc_pendientes:
             dicc_pendientes[p] = [otro]
         else:
             dicc_pendientes[p].append(otro)
 
-    # print('\t' + str(dicc_pendientes))
-
     for pendiente in dicc_pendientes:
-        # print('\tPendiente: ' + str(pendiente))
         if (len(dicc_pendientes[pendiente]) == 1):
-            # print('\t\tlista: ' + str(dicc_pendientes[pendiente]))
             total += 1
         else:
             if (pendiente == 0):    # recta horizontal
+                # Puntos a la izquierda
                 lista1 = [punto for punto in dicc_pendientes[pendiente] if punto[0] < ast[0]]
+                # Puntos a la derecha
                 lista2 = [punto for punto in dicc_pendientes[pendiente] if punto[0] > ast[0]]
-                # print('\t\tizquierda: ' + str(lista1))
-                # print('\t\tderecha: ' + str(lista2))
 
             else:   # recta vertical u oblicua
+                # Puntos de arriba
                 lista1 = [punto for punto in dicc_pendientes[pendiente] if punto[1] < ast[1]]
+                # Puntos de abajo
                 lista2 = [punto for punto in dicc_pendientes[pendiente] if punto[1] > ast[1]]
-                # print('\t\tarriba: ' + str(lista1))
-                # print('\t\tabajo: ' + str(lista2))
 
             if(len(lista1) >= 1):
                 total += 1
