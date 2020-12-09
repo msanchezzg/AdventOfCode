@@ -1,0 +1,10 @@
+PART 1
+First number that does not have parents in preamble list = 127
+
+---------------------------------------------------
+
+PART 2
+Numbers that sum 127: indeces 2 (15) to 5 (40)
+Numbers: [15, 25, 47, 40]
+
+Sum of smallest and biggest number = 15 + 47 = 62
