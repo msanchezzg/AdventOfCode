@@ -5,10 +5,10 @@ import re
 import sys
 
 
-def in_range(n, min, max):
-    if n < min:
+def in_range(n, range_min, range_max):
+    if n < range_min:
         return False
-    if n > max:
+    if n > range_max:
         return False
     return True
 
@@ -28,7 +28,7 @@ def in_category_range(n, categories, cat):
     return False
 
 def are_categories_assigned(categories):
-    for cat, indeces in categories.items():
+    for _, indeces in categories.items():
         if len(indeces) > 1:
             return False
     return True
@@ -103,8 +103,8 @@ def main(input_file):
     category_re = r'(.*): (\d*)-(\d*) or (\d*)-(\d*)'
     categories_ranges = {}
 
-    for c in categories.split('\n'):
-        cat_name, min1, max1, min2, max2 = re.match(category_re, c).groups()
+    for cat in categories.split('\n'):
+        cat_name, min1, max1, min2, max2 = re.match(category_re, cat).groups()
         categories_ranges[cat_name] = [(int(min1), int(max1)), (int(min2), int(max2))]
 
     # Parse my ticket
