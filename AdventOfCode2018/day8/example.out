@@ -1,0 +1,11 @@
+Nodes:
+	Node(id=0 children=(), metadata=(10, 11, 12), value=33)
+	Node(id=1 children=(), metadata=(99,), value=99)
+	Node(id=2 children=(1,), metadata=(2,), value=0)
+	Node(id=3 children=(0, 2), metadata=(1, 1, 2), value=66)
+
+PART 1
+Sum of metadata = 138
+
+PART 2
+Value of node 'A' (node with biggest id: 3) = 66
