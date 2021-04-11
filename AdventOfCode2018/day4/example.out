@@ -1,0 +1,11 @@
+PART 1
+Guard who slept the most: Guard #10
+Minutes asleep = 50. Most repeated minute = 24 (2 times)
+Product = 10 * 24 = 240
+
+--------------------------------------
+
+PART 2
+Guard with the most frequency of repeated minute asleep = Guard #99
+Minute = 45 (3 times)
+Product = 99 * 45 = 4455
