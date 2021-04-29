@@ -1,0 +1,25 @@
+PART 1
+Opcodes with 3 or more function options = 607
+
+-------------------------------------
+
+PART 2
+Opcodes and functions:
+	0: bori
+	1: borr
+	2: addi
+	3: muli
+	4: addr
+	5: bani
+	6: gtri
+	7: setr
+	8: gtrr
+	9: seti
+	10: eqir
+	11: eqrr
+	12: mulr
+	13: eqri
+	14: gtir
+	15: banr
+
+Final state of registers: [577, 18, 1, 577]
