@@ -1,0 +1,6 @@
+PART 1
+List of constellations:
+- Constellation 0: [Star(0, 0, 0, 0), Star(3, 0, 0, 0), Star(0, 3, 0, 0), Star(0, 0, 3, 0), Star(0, 0, 0, 3), Star(0, 0, 0, 6)]
+- Constellation 1: [Star(9, 0, 0, 0), Star(12, 0, 0, 0)]
+
+Number of constellations = 2
