@@ -1,6 +1,0 @@
-PART 1
-line 'BFFFBBFRRR' => seat row=70,	col=7,	id=567
-line 'FFFBBBFRRR' => seat row=14,	col=7,	id=119
-line 'BBFFBBFRLL' => seat row=102,	col=4,	id=820
-
-Highest ID = 820

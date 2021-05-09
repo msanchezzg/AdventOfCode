@@ -1,7 +1,0 @@
-Group 0. Questions everyone answered yes = {'a', 'c', 'b'}
-Group 1. Questions everyone answered yes = set()
-Group 2. Questions everyone answered yes = {'a'}
-Group 3. Questions everyone answered yes = {'a'}
-Group 4. Questions everyone answered yes = {'b'}
-
-Total questions everyone answered yes within a group = 6
