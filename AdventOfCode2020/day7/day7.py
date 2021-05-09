@@ -20,7 +20,6 @@ def get_weight(bags_connections, parent_node):
     return childs_weight
 
 
-
 def main(input_file):
     with open(input_file, 'r') as f:
         lines = f.readlines()
