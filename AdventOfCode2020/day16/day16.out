@@ -1,0 +1,29 @@
+PART 1
+Error rate = 29851
+
+--------------------------------------------------
+
+PART 2
+CATEGORY NAME       	INDEX
+arrival location    	{9}
+arrival platform    	{10}
+arrival station     	{15}
+arrival track       	{13}
+class               	{4}
+departure date      	{11}
+departure location  	{1}
+departure platform  	{16}
+departure station   	{17}
+departure time      	{5}
+departure track     	{12}
+duration            	{3}
+price               	{0}
+route               	{18}
+row                 	{8}
+seat                	{19}
+train               	{2}
+type                	{14}
+wagon               	{7}
+zone                	{6}
+
+Total product of departure fields = 3029180675981

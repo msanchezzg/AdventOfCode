@@ -1,0 +1,13 @@
+PART 1
+Non-allergic ingredients: ['kfcds', 'nhms', 'trh', 'sbzzf']
+Total = 5
+
+-------------------------------------
+
+PART 2
+ALLERGEN            	INGREDIENT
+dairy               	mxmxvkd
+fish                	sqjhc
+soy                 	fvjkl
+
+Canonical dangerous ingredient list = mxmxvkd,sqjhc,fvjkl
