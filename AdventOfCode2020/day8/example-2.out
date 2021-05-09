@@ -1,0 +1,2 @@
+Accumulator: 8
+Change: ['nop', -4, 7]  <= from ['jmp', -4, 7]
