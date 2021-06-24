@@ -1,0 +1,3 @@
+Dictionary of registers: {'tcy': 1792, 'o': 3867, 's': 5434, 'keq': 2709, 'ip': 2230, 'zr': -2055, 'yq': -706, 'myk': -2014, 'pc': 1187, 'qfz': -637, 'hwk': -1427, 'ljs': 5465, 'n': -233, 'sd': 17, 'bio': 2923, 'ow': -2750, 'ige': -3141, 'vt': 434, 'py': -882, 'gij': -2640, 'qpa': -3961, 'u': -61, 'g': -235, 'scy': -4155, 'cy': 3598, 'd': 5752, 'si': -5086}
+PART 1 - Register with biggest value = ('d', 5752)
+PART 2 - Register with max value in any moment = ('ljs', 6366)
