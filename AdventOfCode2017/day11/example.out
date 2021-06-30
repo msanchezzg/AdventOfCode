@@ -1,0 +1,24 @@
+['ne', 'ne', 'ne']
+PART 1 - Simplified moves = 3 ['ne', 'ne', 'ne']
+PART 2 - Moves to furthest cell ([3, -3]) = 3 ['ne', 'ne', 'ne']
+
+['ne', 'ne', 'sw', 'sw']
+PART 1 - Simplified moves = 0 []
+PART 2 - Moves to furthest cell ([0, 0]) = 0 []
+
+['ne', 'ne', 's', 's']
+PART 1 - Simplified moves = 2 ['se', 'se']
+PART 2 - Moves to furthest cell ([2, 2]) = 2 ['se', 'se']
+
+['se', 'se']
+PART 1 - Simplified moves = 2 ['se', 'se']
+PART 2 - Moves to furthest cell ([2, 2]) = 2 ['se', 'se']
+
+['se', 'sw', 'se', 'sw', 'sw']
+PART 1 - Simplified moves = 3 ['s', 's', 'sw']
+PART 2 - Moves to furthest cell ([-1, 5]) = 3 ['s', 's', 'sw']
+
+['s', 's', 'sw']
+PART 1 - Simplified moves = 3 ['s', 's', 'sw']
+PART 2 - Moves to furthest cell ([-1, 5]) = 3 ['s', 's', 'sw']
+
