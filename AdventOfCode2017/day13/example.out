@@ -1,0 +1,10 @@
+PART 1
+Collision in layer {'id': 0, 'depth': 3}
+Collision in layer {'id': 6, 'depth': 4}
+
+Severity = 24
+
+-----------------------------------
+
+PART 2
+Min delay without collisions = 10

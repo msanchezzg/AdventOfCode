@@ -1,0 +1,14 @@
+PART 1
+Collision in layer {'id': 0, 'depth': 3}
+Collision in layer {'id': 10, 'depth': 6}
+Collision in layer {'id': 12, 'depth': 4}
+Collision in layer {'id': 14, 'depth': 8}
+Collision in layer {'id': 44, 'depth': 12}
+Collision in layer {'id': 52, 'depth': 14}
+
+Severity = 1476
+
+-----------------------------------
+
+PART 2
+Min delay without collisions = 3937334
