@@ -1,0 +1,11 @@
+PART 1
+Number of nodes in group 0 = 6
+{0, 2, 3, 4, 5, 6}
+
+--------------------------------------
+
+PART 2
+Number of different groups = 2
+List of groups:
+	{0, 2, 3, 4, 5, 6}
+	{1}
