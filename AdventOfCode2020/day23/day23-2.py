@@ -14,13 +14,16 @@ def main(input_file):
     # top_cup = 9           # Part 1
     top_cup = 1000000
     max_cup = top_cup
-    for i in range(max_cup+1, top_cup+1):
+    n = len(cups)
+
+    for i in range(n+1, top_cup+1):
         cups.append(i)
 
     nodes_by_value = {}
 
     for c in cups:
         nodes_by_value[c] = Node(c)
+
     for i, c in enumerate(cups):
         if i-1 >= 0:
             prev_cup_value = cups[i-1]
@@ -52,7 +55,6 @@ def main(input_file):
             dest_cup_value = current_cup.value - i
 
             if dest_cup_value <= 0:
-                # max_cup = max(cups)
                 max_cup = top_cup
                 while max_cup in cups_picked_values:
                     max_cup -= 1
