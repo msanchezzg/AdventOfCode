@@ -1,0 +1,19 @@
+PART 1
+Number of outputs with number 1, 4, 7 or 8 = 26
+
+----------------------------------------------
+
+PART 2
+Pattern-sum correspondences:
+	[('abdefg', 0), ('be', 1), ('abcdf', 2), ('bcdef', 3), ('bceg', 4), ('cdefg', 5), ('acdefg', 6), ('bde', 7), ('abcdefg', 8), ('bcdefg', 9)]	Signal: 8394
+	[('abcdfg', 0), ('cg', 1), ('abcde', 2), ('bcdeg', 3), ('cefg', 4), ('bdefg', 5), ('abdefg', 6), ('bcg', 7), ('abcdefg', 8), ('bcdefg', 9)]	Signal: 9781
+	[('bcdefg', 0), ('cg', 1), ('abcde', 2), ('abcdg', 3), ('acfg', 4), ('abdfg', 5), ('abdefg', 6), ('bcg', 7), ('abcdefg', 8), ('abcdfg', 9)]	Signal: 1197
+	[('bcdefg', 0), ('bc', 1), ('abdeg', 2), ('abcde', 3), ('abcf', 4), ('acdef', 5), ('acdefg', 6), ('bcd', 7), ('abcdefg', 8), ('abcdef', 9)]	Signal: 9361
+	[('abcdfg', 0), ('fg', 1), ('abdef', 2), ('abefg', 3), ('cefg', 4), ('abceg', 5), ('abcdeg', 6), ('bfg', 7), ('abcdefg', 8), ('abcefg', 9)]	Signal: 4873
+	[('acdefg', 0), ('ac', 1), ('bcdfg', 2), ('abcfg', 3), ('abce', 4), ('abefg', 5), ('abdefg', 6), ('acf', 7), ('abcdefg', 8), ('abcefg', 9)]	Signal: 8418
+	[('abdefg', 0), ('fg', 1), ('abcdg', 2), ('bcdfg', 3), ('cefg', 4), ('bcdef', 5), ('abcdef', 6), ('dfg', 7), ('abcdefg', 8), ('bcdefg', 9)]	Signal: 4548
+	[('acdefg', 0), ('de', 1), ('abcdg', 2), ('bcdeg', 3), ('bdef', 4), ('bcefg', 5), ('abcefg', 6), ('cde', 7), ('abcdefg', 8), ('bcdefg', 9)]	Signal: 1625
+	[('abcdfg', 0), ('cg', 1), ('abcef', 2), ('bcefg', 3), ('cdeg', 4), ('bdefg', 5), ('abdefg', 6), ('bcg', 7), ('abcdefg', 8), ('bcdefg', 9)]	Signal: 8717
+	[('bcdefg', 0), ('fg', 1), ('abcdf', 2), ('abcfg', 3), ('aefg', 4), ('abceg', 5), ('abcdeg', 6), ('cfg', 7), ('abcdefg', 8), ('abcefg', 9)]	Signal: 4315
+
+Sum of signals = 61229
